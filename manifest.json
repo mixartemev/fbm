@@ -1,6 +1,6 @@
 {
   "name": "Firebase Messaging",
-  "short_name": "fb",
+  "short_name": "fbm",
   "start_url": "/index.html",
   "display": "standalone",
   "orientation": "portrait",

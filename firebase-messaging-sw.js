@@ -2,8 +2,10 @@
 // These scripts are made available when the app is served or deployed on Firebase Hosting
 // If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup
 
-importScripts('https://www.gstatic.com/firebasejs/6.0.1/firebase-app.js');
-importScripts('https://www.gstatic.com/firebasejs/6.0.1/firebase-messaging.js');
+importScripts('https://www.gstatic.com/firebasejs/6.9.0/firebase-app.js');
+importScripts('https://www.gstatic.com/firebasejs/6.9.0/firebase-messaging.js');
+importScripts('https://www.gstatic.com/firebasejs/6.9.0/firebase-database.js');
+importScripts('https://www.gstatic.com/firebasejs/6.9.0/firebase-functions.js');
 // Initialize the Firebase app in the service worker by passing in the
 // messagingSenderId.
 firebase.initializeApp({
